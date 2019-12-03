@@ -8,4 +8,11 @@ Rishabh Dwivedi (**rishabhdwivedi17@gmail.com**)
 
 Prabhdeep Singh Parmar (**prabhcoder@gmail.com**)
 
+### Requirements
+	avra
 
+	avrdude
+
+### Installation Instructions
+	avra  full_adder.asm
+	sudo avrdude -C /etc/avrdude.conf -v -p atmega328p -c arduino -P /dev/ttyACM0 -b 115200 -D -U flash:w:./full_adder.hex:i
