@@ -15,4 +15,4 @@ Prabhdeep Singh Parmar (**prabhcoder@gmail.com**)
 
 ### Installation Instructions
 	avra  full_adder.asm
-	sudo avrdude -C /etc/avrdude.conf -v -p atmega328p -c arduino -P /dev/ttyACM0 -b 115200 -D -U flash:w:path/to/full_adder.hex:i
+	sudo avrdude -C /etc/avrdude.conf -v -p atmega328p -c arduino -P /dev/ttyACM0 -b 115200 -D -U flash:w:./full_adder.hex:i
